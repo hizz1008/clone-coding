@@ -7,16 +7,40 @@
      <title>Welcome to Kokoa Talk</title>
  </head>
  <body>
-     <div id="startus-bar">
-        <div class="startus-bar__cloumn"></div>
+     <div class="startus-bar">
+        <div class="startus-bar__cloumn">
         <span>No Service</span>
-        <!-- To Do: Wifi Icon  -->
-        <div class="startus-bar__cloumn"></div>
+        <i class="fa-solid fa-wifi"></i>
+    </div>
+
+        <div class="startus-bar__cloumn">
         <span>18:43</span>
-        <div class="startus-bar__cloumn"></div> 
-        <span>11%</span>
-        <!-- Battery Icon -->
-        <!-- Ligthning Icon  -->
+    </div>
+        <div class="startus-bar__cloumn"> 
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+    </div>
+
      </div>
+
+     <header class="Welcome-header">
+         <h1 class="Welcome-header__title">Welcome to kokoaClone</h1>
+         <p class="Welcome-header__text">
+             If you have a kokoa Account, log in with your email or phone number.</p>
+     </header>
+
+     <from id="login-form">
+         <input type="text" placeholder="Email or phone number" />
+         <input type="password" placeholder="Password" />
+         <input type="submit" value="Log In" />
+         <input type="submit" value="Sign Up" />
+         <a href="#">Find Kokoa Account or Password
+     </from>
+
+
+     <script src="https://kit.fontawesome.com/e8e74eadbe.js" 
+     crossorigin="anonymous">
+    </script>
  </body>
  </html>
