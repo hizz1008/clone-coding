@@ -1,0 +1,28 @@
+.top-banner{
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px;
+}
+.top-banner__cloumn{
+  width: 33%;
+}
+.top-banner__cloumn:first-child span{
+  margin: 2px;
+}
+.top-banner__cloumn:nth-child(2){
+  display: flex;
+  justify-content: center;
+}
+.top-banner__cloumn:last-child{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.top-banner__cloumn .fa-battery-quarter{
+  margin: 0px 2px;
+  size: 2cm;
+}
+.top-banner__cloumn .fa-bolt{
+  font-size: 2px;
+}
