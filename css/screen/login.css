@@ -1,12 +1,4 @@
-@import "reset.css";
-@import "top__banner.css";
-@import "variables.css";
-
-body {
-  font-family: -apple-system, "Open Sans", sans-serif;
-}
-
-.main-text {
+.welcome-header {
   margin: 90px 0px;
   text-align: center;
   display: flex;
@@ -14,50 +6,50 @@ body {
   align-items: center;
   font-weight: 600;
 }
-
-.main-text__title {
+.welcome-header__title {
   margin-bottom: 20px;
   font-size: 25px;
 }
-
-.main-text__subtitle {
-  width: 80%;
+.welcome-header__text {
+  width: 60%;
   opacity: 0.7;
   font-weight: 500;
 }
 
-#ID-PW-form {
+#login-form {
   display: flex;
   flex-direction: column;
   margin: 0px 30px;
 }
 
-#ID-PW-form input {
+#login-form input {
   border: none;
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 25px;
 }
 
-#ID-PW-form input:not([type="submut"]) {
+#login-form input:not([type="submit"]) {
   border-bottom: 2px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
 }
 
-#ID-PW-form input::placeholder {
+#login-form input::placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
 
-#ID-PW-form input:focus {
+#login-form input:focus {
   border-color: var(--yellow);
 }
 
-#ID-PW-form input[type="submit"] {
+#login-form input[type="submit"] {
   background-color: var(--yellow);
   cursor: pointer;
+  padding: 20px 0px;
+  border-radius: 5px;
 }
 
-#ID-PW-form a {
+#login-form a {
   text-align: center;
   text-decoration: none;
   color: inherit;
