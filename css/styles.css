@@ -3,9 +3,11 @@
 
 /*Components*/
 @import "components/startus-bar.css";
+@import "components/nav-bar.css";
 
 /*Screen*/
 @import "screen/login.css";
 body {
   font-family: -apple-system, "Open Sans", sans-serif;
+  height: 1000vh;
 }
