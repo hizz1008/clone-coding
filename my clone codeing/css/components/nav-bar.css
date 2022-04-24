@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f9f9fa;
+  background-color: #f9f9f9;
   padding: 20px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
@@ -10,37 +10,36 @@
 .nav__list {
   display: flex;
   justify-content: space-between;
+  font-size: 30px;
 }
 .nav__link {
   position: relative;
-  color: #2e363e;
-  text-decoration-line: none;
 }
-.nav__notification {
+.nav__message_bot {
   background-color: tomato;
   width: 26px;
   height: 26px;
-  border-radius: 13px;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   font-weight: 600;
+  font-size: 25px;
   position: absolute;
-  left: 15px;
-  bottom: 15px;
+  left: 20px;
+  bottom: 20px;
 }
 .nav__bot {
   background-color: tomato;
-  width: 5px;
-  height: 5px;
-  border-radius: 2.5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  align-items: center;
   display: flex;
+  justify-content: center;
   position: absolute;
-  left: 28px;
-  bottom: 30px;
 }
-
-/*position: absolute 를 쓰기 위한 조건은 그것을 감싸고 있는 container 에 
-    position: relative 를 적어야 한다 왜냐하면 가장 가까운 relative 를 가진 부모 기준으로 움직이기
-    때문*/
+a {
+  text-decoration-line: none;
+}

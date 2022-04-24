@@ -1,0 +1,12 @@
+@import "css/reset.css";
+@import "css/variables.css";
+/*components*/
+@import "css/components/top__banner.css";
+@import "css/components/nav-bar.css";
+
+/*screen*/
+@import "css/screen/login-page.css";
+
+body {
+  font-family: -apple-system, "Open Sans", sans-serif;
+}

@@ -2,8 +2,10 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
-  position: fixed;
+  position: sticky;
   top: 0;
+  right: 0;
+  left: 0;
   width: 100%;
   box-sizing: border-box;
 }
@@ -28,6 +30,6 @@
 .startus-bar__cloumn .fa-bolt {
   font-size: 2px;
 }
-.startus-bar__cloumn .fa-wifi{
+.startus-bar__cloumn .fa-wifi {
   font-size: 14px;
 }

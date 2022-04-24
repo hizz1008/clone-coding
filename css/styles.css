@@ -4,6 +4,7 @@
 /*Components*/
 @import "components/startus-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /*Screen*/
 @import "screen/login.css";
