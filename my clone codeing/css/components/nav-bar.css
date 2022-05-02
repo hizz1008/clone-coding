@@ -32,14 +32,17 @@
 }
 .nav__bot {
   background-color: tomato;
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   align-items: center;
   display: flex;
   justify-content: center;
   position: absolute;
+  bottom: 25px;
+  left: 20px;
 }
+
 a {
   text-decoration-line: none;
 }

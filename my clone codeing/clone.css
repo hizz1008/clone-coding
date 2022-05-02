@@ -3,7 +3,7 @@
 /*components*/
 @import "css/components/top__banner.css";
 @import "css/components/nav-bar.css";
-
+@import "css/components/friend.css";
 /*screen*/
 @import "css/screen/login-page.css";
 
