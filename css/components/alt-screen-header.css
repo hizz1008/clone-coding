@@ -1,0 +1,12 @@
+.alt-screen-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+.alt-header__cloumn i {
+  font-size: 30px;
+}
+.alt-header__title {
+  font-weight: 600;
+  font-size: 20px;
+}

@@ -9,3 +9,23 @@
 .more-suggestions__title {
   margin-bottom: 30px;
 }
+.more-suggestions__icon {
+  display: flex;
+}
+.more-suggestions__icon-image {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.more-suggestions__icon-text {
+  font-size: 15px;
+  margin-top: 5px;
+  color: var(--main-grey);
+}
+.more-suggestions__icon-image img {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+}

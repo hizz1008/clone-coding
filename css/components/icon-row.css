@@ -15,3 +15,6 @@
 .icon-row__icon span {
   margin-top: 18px;
 }
+.opacitiy-icon {
+  opacity: 0;
+}
