@@ -25,3 +25,28 @@
   justify-content: space-between;
   color: var(--main-grey);
 }
+.hide {
+  font-size: 40px;
+  background-color: var(--yellow);
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes hideDisplay {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.hide {
+  animation: hideDisplay 0.4s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
