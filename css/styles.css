@@ -15,12 +15,17 @@
 @import "screen/friend.css";
 @import "screen/find.css";
 @import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
 
 body {
   color: #2e363e;
   font-family: -apple-system, "Open Sans", sans-serif;
-  height: 1000vh;
+  height: auto;
 }
 .main-screen {
-  padding: 0px var(--horizontal-space);
+  padding: var(--horizontal-space);
+}
+a {
+  text-decoration: none;
 }

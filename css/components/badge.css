@@ -26,3 +26,18 @@
   bottom: 40px;
   position: relative;
 }
+.badge-1 {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+.position-3 {
+  margin-left: 5px;
+}
